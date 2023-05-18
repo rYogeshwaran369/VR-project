@@ -8,17 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    // <div className="App">
-    //   <HomePage/>
-    //   {/* <Content/> */}
-    //   {/* <Project1/> */}
-    // </div>
-    <Routes>
-      
-      <Route path='/' element={<HomePage/>}></Route>
-      <Route path='/content' element={<Content/>}></Route>
-      <Route path='/project1' element={<Project1/>}></Route>
-    </Routes>
+    <h1>AI-CLUB</h1>
   );
 }
 
